@@ -12,11 +12,8 @@ import Team from './src/Components/Team'
 
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 
-
-
 const App = ()=>
 {
-    const [user,SetUserData] = useState(UsersData);
     return (
         <Provider store={store}>
             {/* <userContext.Provider value={{UsersData:user,SetUserData:SetUserData}}> */}

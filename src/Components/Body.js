@@ -2,7 +2,6 @@ import { useState,useContext } from 'react';
 import UsersData2 from '../../heliverse_mock_data.json'
 import UserCard from './UserCard'
 import Filter from './Filter'
-import userContext from '../Utils/UserContext';
 import UsersData from '../../heliverse_mock_data.json'
 
 

@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import manImage from '../Asets/man.png'
-import womenImage from '../Asets/woman.png'
 import { removeMember } from '../Utils/teamSlice'
 import { useDispatch,useSelector } from 'react-redux'
 

@@ -1,7 +1,6 @@
 import React, { useState,useContext } from 'react'
 import UsersData from '../../heliverse_mock_data.json'
 import UsersData2 from '../../heliverse_mock_data.json'
-import userContext from '../Utils/UserContext';
 import Team from './Team'
 import { Link } from 'react-router-dom'
 import {useSelector} from 'react-redux'

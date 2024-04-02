@@ -1,7 +1,5 @@
-import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import TeamFilter from './TeamFilter';
-import UserCard from './UserCard'
 import TeamMemberCard from './TeamMemberCard'
 import {Link} from 'react-router-dom'
 // import store from '../Utils/store';
