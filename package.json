@@ -1,0 +1,37 @@
+{
+  "name": "heliverse",
+  "version": "1.0.0",
+  "description": "This is Assignment app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel Index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetan51423/Heliverse.git"
+  },
+  "author": "Chetan Shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chetan51423/Heliverse/issues"
+  },
+  "homepage": "https://github.com/Chetan51423/Heliverse#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "redux": "^5.0.1"
+  }
+}
