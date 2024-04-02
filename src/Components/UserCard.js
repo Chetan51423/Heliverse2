@@ -1,6 +1,4 @@
 import React from 'react'
-import manImage from '../Asets/man.png'
-import womenImage from '../Asets/woman.png'
 import { addMember } from '../Utils/teamSlice'
 import { useDispatch } from 'react-redux'
 

@@ -1,7 +1,7 @@
 import React, { useState,useContext } from 'react'
 import UsersData from '../../heliverse_mock_data.json'
 import UsersData2 from '../../heliverse_mock_data.json'
-import Team from './Team'
+
 import { Link } from 'react-router-dom'
 import {useSelector} from 'react-redux'
 
@@ -40,8 +40,8 @@ const Filter = () => {
     <div className='w-60 '>
       <div className='p-3'>
         <button className='bg-slate-400 px-3 py-5 w-48 h-10 rounded-md font-medium flex justify-between  items-center text-lg hover:shadow-2xl hover:bg-slate-500' onClick={()=>{filter?SetFIlter(false):SetFIlter(true)}}><span className=''>Filter</span> <span className=''>^</span></button>
-        {console.log("FilterUser:->"+filterUsers.length)}
-        {console.log("teamMembers:->"+teamMembers.length)}
+        {/* {console.log("FilterUser:->"+filterUsers.length)} */}
+        {/* {console.log("teamMembers:->"+teamMembers.length)} */}
         {filter?(
             <div className='m-2'>
                 <button className='bg-slate-400 px-3 py-5 w-32 flex justify-between items-center h-10 m-3 rounded-md hover:bg-slate-500'onClick={()=>{gender && filter?SetGender(false):SetGender(true)}}>
